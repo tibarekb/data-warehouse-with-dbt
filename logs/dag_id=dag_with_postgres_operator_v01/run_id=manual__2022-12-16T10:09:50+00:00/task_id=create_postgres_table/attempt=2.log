@@ -1,0 +1,13 @@
+[2022-12-16T13:38:36.792+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator_v01.create_postgres_table manual__2022-12-16T10:09:50+00:00 [queued]>
+[2022-12-16T13:38:37.237+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator_v01.create_postgres_table manual__2022-12-16T10:09:50+00:00 [queued]>
+[2022-12-16T13:38:37.257+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-16T13:38:37.297+0000] {taskinstance.py:1284} INFO - Starting attempt 2 of 6
+[2022-12-16T13:38:37.301+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-16T13:38:37.728+0000] {taskinstance.py:1304} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-12-16 10:09:50+00:00
+[2022-12-16T13:38:37.821+0000] {standard_task_runner.py:55} INFO - Started process 113 to run task
+[2022-12-16T13:38:37.943+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator_v01', 'create_postgres_table', 'manual__2022-12-16T10:09:50+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_postgres_operator.py', '--cfg-path', '/tmp/tmpj9mtdwae']
+[2022-12-16T13:38:37.950+0000] {standard_task_runner.py:83} INFO - Job 25: Subtask create_postgres_table
+[2022-12-16T13:39:25.041+0000] {local_task_job.py:159} INFO - Task exited with return code Negsignal.SIGKILL
+[2022-12-16T13:39:40.718+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check
