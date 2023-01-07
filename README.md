@@ -1,7 +1,5 @@
 # data-warehouse-with-dbt
 
-# Datawarehouse
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -101,7 +99,7 @@ Make sure you have docker installed on local machine.
 1. Clone the repo and Navigate
    ```sh
    git clone https://github.com/tibarekb/data-warehouse-with-dbt.git
-   cd data-warehouse
+   cd data-warehouse-with-dbt
    ```
 2. Run
    ```sh
